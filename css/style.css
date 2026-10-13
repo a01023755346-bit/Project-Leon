@@ -348,3 +348,59 @@ body{
     }
 }
 /* end about */
+/* start contact */
+.contact{
+    padding-bottom: var(--section-padding);
+    padding-top: var(--section-padding);
+    background-color: #f6f6f6;
+}
+.contact .info{
+    padding-top: var(--section-padding);
+    text-align: center;
+}
+.contact .info .label{
+    color: var(--secondry-color);
+    font-weight: 800;
+    font-size: 40px;
+    letter-spacing: -3px;
+    margin-bottom: 15px;
+}
+.contact .info .link{
+    color: var(--main-color);
+    font-weight: 800;
+    font-size: 35px;
+    text-decoration: none;
+    letter-spacing: -3px;
+    display: block;
+}
+.contact .info .social{
+    margin-top: 20px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+}
+.contact .info .social i{
+    margin-left: 10px;
+    color: var(--secondry-color);
+}
+@media  screen and (max-width:600px){
+    .contact .info .label{
+        font-size: 30px;
+    }
+    .contact .info .link{
+        font-size: 25px;
+    }
+}
+/* end contact */
+/* start footer */
+footer{
+    background-color: var(--secondry-color);
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+}
+footer span{
+    color: var(--main-color);
+    font-weight: 800;
+}
+/* end footer */
